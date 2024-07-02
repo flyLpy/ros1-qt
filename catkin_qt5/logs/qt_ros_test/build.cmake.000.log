@@ -1,0 +1,53 @@
+Not searching for unused variables given on the command line.
+[0mCMake Deprecation Warning at CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[36m--[0m The C compiler identification is GNU 11.4.0
+[36m--[0m The CXX compiler identification is GNU 11.4.0
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Check for working C compiler: /usr/bin/cc - skipped
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/lpy/catkin_qt5/devel
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/lpy/catkin_qt5/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/lpy/catkin_qt5/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/lpy/catkin_qt5/build/qt_ros_test/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[31mCMake Error at /opt/ros/noetic/share/cv_bridge/cmake/cv_bridgeConfig.cmake:113 (message):
+  Project 'cv_bridge' specifies '/usr/local/include/opencv' as an include
+  dir, which is not found.  It does neither exist as an absolute directory
+  nor in '${{prefix}}//usr/local/include/opencv'.  Check the issue tracker
+  'https://github.com/ros-perception/vision_opencv/issues' and consider
+  creating a ticket if the problem has not been reported yet.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:14 (find_package)
+
+[0m
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/lpy/catkin_qt5/build/qt_ros_test/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,6 @@
+devel_space: /home/lpy/catkin_qt5/devel
+install: false
+install_space: /home/lpy/catkin_qt5/install
+profile: default
+source_space: /home/lpy/catkin_qt5/src
+workspace: /home/lpy/catkin_qt5

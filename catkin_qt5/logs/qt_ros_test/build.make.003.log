@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target qt_ros_test[0m
+[  5%] [32mBuilding CXX object CMakeFiles/qt_ros_test.dir/src/CCtrlDashBoard.cpp.o[0m
+[01m[K/home/lpy/catkin_qt5/src/qt_ros_test/src/CCtrlDashBoard.cpp:[m[K In member function ‘[01m[Kvoid CCtrlDashBoard::drawBackGround(QPainter*, qreal)[m[K’:
+[01m[K/home/lpy/catkin_qt5/src/qt_ros_test/src/CCtrlDashBoard.cpp:33:18:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KQPainterPath bigCircle[m[K’ has incomplete type and cannot be defined
+   33 |     QPainterPath [01;31m[KbigCircle[m[K;
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/lpy/catkin_qt5/src/qt_ros_test/src/CCtrlDashBoard.cpp:38:18:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KQPainterPath smallCircle[m[K’ has incomplete type and cannot be defined
+   38 |     QPainterPath [01;31m[KsmallCircle[m[K;
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lpy/catkin_qt5/src/qt_ros_test/src/CCtrlDashBoard.cpp:41:18:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[KQPainterPath path[m[K’ has initializer but incomplete type
+   41 |     QPainterPath [01;31m[Kpath[m[K = bigCircle - smallCircle;
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/lpy/catkin_qt5/src/qt_ros_test/src/CCtrlDashBoard.cpp:[m[K In member function ‘[01m[Kvoid CCtrlDashBoard::drawIndicatorBar(QPainter*, qreal)[m[K’:
+[01m[K/home/lpy/catkin_qt5/src/qt_ros_test/src/CCtrlDashBoard.cpp:179:18:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KQPainterPath path[m[K’ has incomplete type and cannot be defined
+  179 |     QPainterPath [01;31m[Kpath[m[K;
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/lpy/catkin_qt5/src/qt_ros_test/src/CCtrlDashBoard.cpp:183:18:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KQPainterPath subPath[m[K’ has incomplete type and cannot be defined
+  183 |     QPainterPath [01;31m[KsubPath[m[K;
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/lpy/catkin_qt5/src/qt_ros_test/src/CCtrlDashBoard.cpp:221:18:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KQPainterPath ftPath[m[K’ has incomplete type and cannot be defined
+  221 |     QPainterPath [01;31m[KftPath[m[K;
+      |                  [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:181：CMakeFiles/qt_ros_test.dir/src/CCtrlDashBoard.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:2185：CMakeFiles/qt_ros_test.dir/all] 错误 2
+make: *** [Makefile:146：all] 错误 2

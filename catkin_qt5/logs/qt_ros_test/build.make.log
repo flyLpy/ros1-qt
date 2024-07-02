@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target qt_ros_test[0m
+[  5%] [32mBuilding CXX object CMakeFiles/qt_ros_test.dir/src/CCtrlDashBoard.cpp.o[0m
+[ 11%] [32m[1mLinking CXX executable /home/lpy/catkin_qt5/devel/lib/qt_ros_test/qt_ros_test[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.4, needed by /opt/ros/noetic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5d
+[100%] Built target qt_ros_test

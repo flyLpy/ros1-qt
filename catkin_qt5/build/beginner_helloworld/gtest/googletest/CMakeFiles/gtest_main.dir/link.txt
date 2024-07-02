@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libgtest_maind.so.1.11.0 -o ../lib/libgtest_maind.so.1.11.0 CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/lpy/catkin_qt5/build/beginner_helloworld/gtest/lib ../lib/libgtestd.so.1.11.0 

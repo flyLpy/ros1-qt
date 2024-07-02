@@ -1,0 +1,19 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/lpy/catkin_qt5/devel
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/lpy/catkin_qt5/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/lpy/catkin_qt5/devel;/opt/ros/noetic
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/lpy/catkin_qt5/build/beginner_helloworld/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/lpy/catkin_qt5/build/beginner_helloworld
